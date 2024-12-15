@@ -1,0 +1,298 @@
+/* Estilos Generales */
+body {
+    background-color: #f4f1e1; /* Color claro y suave que recuerda el cacao */
+    color: #3e2723; /* Color oscuro, similar al color del chocolate */
+    line-height: 1.6;
+    font-size: 16px;
+    padding: 20px;
+}
+
+/* Banner */
+#banner {
+    background-color: #d2691e; /* Color marrón cálido como el chocolate */
+    text-align: center;
+    padding: 10px 0;
+}
+
+#banner .banner-content {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#banner .banner-content strong {
+    color: #fff; /* Color blanco para que resalte */
+}
+
+#banner .banner-content em {
+    font-style: italic;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.header .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.header .logo {
+    max-width: 150px;
+}
+
+.header .site-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #3e2723; /* Color de chocolate oscuro */
+}
+
+.header .subtitle {
+    font-size: 18px;
+    color: #6f4f1f; /* Un tono marrón intermedio */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #5d4037; /* Marrón suave */
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.navbar a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #f39c12; /* Color dorado para resaltar al pasar el ratón */
+}
+
+/* Filtro de productos */
+#product-type {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+/* Main Content */
+main {
+    margin-top: 40px;
+}
+
+.content {
+    margin: 40px 0;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Productos */
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff8e1; /* Fondo suave de color crema, similar al color de la leche con chocolate */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    background-color: #f3e5ab; /* Color dorado claro para resaltar al pasar el ratón */
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #3e2723; /* Título en color chocolate oscuro */
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+.product-card button {
+    background-color: #3e2723; /* Chocolate oscuro */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.product-card button:hover {
+    background-color: #8d6e63; /* Color marrón más claro al pasar el ratón */
+}
+
+/* Formulario de Registro */
+#register-form input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#register-form button {
+    width: 320px;
+    padding: 10px;
+    background-color: #8d6e63; /* Color marrón claro */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#register-form button:hover {
+    background-color: #6d4c41; /* Color marrón más oscuro al pasar el ratón */
+}
+
+/* Carrito de Compras */
+.cart {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cart-items li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#cart-items button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cart-items button:hover {
+    background-color: #ce3321;
+}
+
+#checkout-button {
+    background-color: #f39c12; /* Color dorado brillante */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#checkout-button:hover {
+    background-color: #e67e22; /* Color anaranjado dorado más cálido */
+}
+
+#cart-preview, #cart-total {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #3e2723; /* Chocolate oscuro */
+    padding: 20px;
+    color: #ecf0f1;
+    margin-top: 40px;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+/* Logo con movimiento */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    animation: moveLogo 5s infinite alternate;
+}
+
+.logo {
+    max-width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Animación para mover el logo */
+@keyframes moveLogo {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px); /* Mueve el logo 20px a la derecha */
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .product-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #register-form input {
+        width: 250px;
+    }
+
+    #register-form button {
+        width: 270px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
